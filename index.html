@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="carousel">
+        <img src="1.jpg" alt="MadaraVsNaruto" class="active">
+        <div class="active content">
+            <p>First Slide</p>
+        </div>
+        <img src="2.jpg" alt="Akatsuki">
+        <div class="content">
+            <p>Second Slide</p>
+        </div>
+        <img src="3.jpg" alt="Naruto">
+        <div class="content">
+            <p>Third Slide</p>
+        </div>
+        <img src="4.jpg" alt="Obito">
+        <div class="content">
+            <p>Fourth Slide</p>
+        </div>
+        <div class="overlay"></div>
+        <div class="btn-container">
+            <button onclick="prevSlide()">&#x3c;</button>
+            <button onclick="nextSlide()">&#x3e;</button>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
